@@ -1,0 +1,25 @@
+
+title: Portfolio Professionnel
+description: Stagiaire en Physique-Chimie - CRMEF 2025/2026
+theme: jekyll-theme-cayman
+
+# إعدادات القائمة العلوية (المحاور)
+navigation:
+  - title: Accueil
+    url: /
+  - title: Axe 1
+    url: /axe1.html
+  - title: Axe 2
+    url: /axe2.html
+  - title: Axe 3
+    url: /axe3.html
+  - title: Axe 4
+    url: /axe4.html
+  - title: Axe 5
+    url: /axe5.html
+  - title: Axe 6
+    url: /axe6.html
+  - title: Axe 7
+    url: /axe7.html
+  - title: Axe 8
+    url: /axe8.html
