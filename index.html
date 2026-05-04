@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio Professionnel</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Header */
+header{
+    background:linear-gradient(to right,#1d6b52,#2d8f6a);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:50px;
+    margin:10px 0;
+}
+
+header p{
+    font-size:20px;
+    letter-spacing:2px;
+}
+
+/* Menu */
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    border-bottom:1px solid #ccc;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    padding:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#1d6b52;
+}
+
+/* Section */
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h2{
+    color:#1d6b52;
+    font-size:40px;
+}
+
+/* Stats */
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.box h3{
+    font-size:50px;
+    color:#222;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portfolio Professionnel</h1>
+    <p>STAGIAIRE EN PHYSIQUE-CHIMIE — CRMEF</p>
+</header>
+
+<nav>
+    <a href="#">ACCUEIL</a>
+    <a href="#">CV</a>
+    <a href="#">ÉTABLISSEMENT</a>
+    <a href="#">COMITÉ</a>
+    <a href="#">AXE 1</a>
+    <a href="#">AXE 2</a>
+    <a href="#">AXE 3</a>
+    <a href="#">CONTACT</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Bienvenue dans mon Portfolio</h2>
+        <p>
+            Outil d’évaluation et de réflexion professionnelle — Année 2025-2026
+        </p>
+    </div>
+
+    <div class="stats">
+
+        <div class="box">
+            <h3>8</h3>
+            <p>AXES</p>
+        </div>
+
+        <div class="box">
+            <h3>3</h3>
+            <p>STAGES</p>
+        </div>
+
+        <div class="box">
+            <h3>525</h3>
+            <p>HEURES</p>
+        </div>
+
+        <div class="box">
+            <h3>2026</h3>
+            <p>ANNÉE</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
